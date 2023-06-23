@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 20px;
+  color: red;
+  padding-top: 50px;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  margin: 20px 10px 20px 10px;
+  border: 5px solid red;
+  border-radius: 20%;
+  border-color: aquamarine;
+  margin: auto;
+}
+.image:hover {
+  border-color: red;
+  transition: all 0.3s ease-in-out;
+  transform: translate(200px);
+}
+.container {
+  background-color: bisque;
+  outline: 20px solid green;
+  padding: 20px 10px;
+  width: 480px;
+  margin: auto;
+  padding: 0 25px;
+}
